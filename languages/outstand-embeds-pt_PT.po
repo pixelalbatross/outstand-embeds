@@ -1,0 +1,102 @@
+# Copyright (C) 2026 Outstand
+# This file is distributed under the GPL-3.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Outstand Embeds 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/pixelalbatross/outstand-embeds/issues\n"
+"Last-Translator: Outstand\n"
+"Language-Team: Portuguese (Portugal)\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-14T16:13:10+00:00\n"
+"PO-Revision-Date: 2026-11-14 16:15+0000\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: outstand-embeds\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+#: plugin.php
+msgid "Outstand Embeds"
+msgstr "Outstand Embeds"
+
+#. Plugin URI of the plugin
+#: plugin.php
+msgid "https://outstand.site/?utm_source=wp-plugins&utm_medium=outstand-embeds&utm_campaign=plugin-uri"
+msgstr ""
+
+#. Description of the plugin
+#: plugin.php
+msgid "Embed Facebook and Instagram posts and videos in the Embed block, and load them only after cookie consent."
+msgstr "Incorpora publicações e vídeos do Facebook e do Instagram no bloco Incorporar, e carrega-os apenas depois do consentimento de cookies."
+
+#. Author of the plugin
+#: plugin.php
+msgid "Outstand"
+msgstr "Outstand"
+
+#. Author URI of the plugin
+#: plugin.php
+msgid "https://outstand.site/?utm_source=wp-plugins&utm_medium=outstand-embeds&utm_campaign=author-uri"
+msgstr ""
+
+#: includes/Plugin.php:82
+msgid "Settings"
+msgstr "Opções"
+
+#: includes/Providers/Facebook.php:138
+msgid "Facebook video"
+msgstr "Vídeo do Facebook"
+
+#: includes/Providers/Facebook.php:141
+msgid "Facebook post"
+msgstr "Publicação do Facebook"
+
+#: includes/Providers/Instagram.php:118
+msgid "Instagram reel"
+msgstr "Reel do Instagram"
+
+#: includes/Providers/Instagram.php:121
+msgid "Instagram post"
+msgstr "Publicação do Instagram"
+
+#. translators: %s: The provider name, for example Facebook.
+#: includes/Providers/Provider.php:142
+#, php-format
+msgid "This %s content loads after you accept cookies."
+msgstr "Este conteúdo do %s carrega depois de aceitar os cookies."
+
+#. translators: %s: The provider name, for example Facebook.
+#: includes/Providers/Provider.php:150
+#, php-format
+msgid "View on %s"
+msgstr "Ver no %s"
+
+#: includes/Settings.php:107
+msgid "Embeds"
+msgstr "Incorporações"
+
+#: includes/Settings.php:114
+msgid "Consent category"
+msgstr "Categoria de consentimento"
+
+#: includes/Settings.php:123
+msgid "Require consent"
+msgstr "Exigir consentimento"
+
+#: includes/Settings.php:139
+msgid "Facebook and Instagram embeds set third-party cookies. When a consent tool is active, they load only after the visitor accepts the cookie category below."
+msgstr "As incorporações do Facebook e do Instagram definem cookies de terceiros. Com uma ferramenta de consentimento activa, carregam apenas depois de o visitante aceitar a categoria de cookies abaixo."
+
+#: includes/Settings.php:160
+msgid "The slug of the cookie category in your consent tool, for example \"advertisement\" or \"functional\" in CookieYes. Use the category in which the consent tool lists the Facebook and Instagram cookies."
+msgstr "O slug da categoria de cookies na ferramenta de consentimento, por exemplo \"advertisement\" ou \"functional\" no CookieYes. Use a categoria em que a ferramenta de consentimento lista os cookies do Facebook e do Instagram."
+
+#: includes/Settings.php:176
+msgid "Show only a notice and a link when no consent tool is active"
+msgstr "Mostrar apenas um aviso e uma ligação quando nenhuma ferramenta de consentimento está activa"
+
+#: includes/Settings.php:181
+msgid "When this is off and no consent tool is active, embeds load at once."
+msgstr "Com esta opção desactivada e sem ferramenta de consentimento activa, as incorporações carregam de imediato."

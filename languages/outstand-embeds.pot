@@ -1,0 +1,100 @@
+# Copyright (C) 2026 Outstand
+# This file is distributed under the GPL-3.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Outstand Embeds 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/pixelalbatross/outstand-embeds/issues\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-14T17:22:42+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: outstand-embeds\n"
+
+#. Plugin Name of the plugin
+#: plugin.php
+msgid "Outstand Embeds"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: plugin.php
+msgid "https://outstand.site/?utm_source=wp-plugins&utm_medium=outstand-embeds&utm_campaign=plugin-uri"
+msgstr ""
+
+#. Description of the plugin
+#: plugin.php
+msgid "Embed Facebook and Instagram posts and videos in the Embed block, and load them only after cookie consent."
+msgstr ""
+
+#. Author of the plugin
+#: plugin.php
+msgid "Outstand"
+msgstr ""
+
+#. Author URI of the plugin
+#: plugin.php
+msgid "https://outstand.site/?utm_source=wp-plugins&utm_medium=outstand-embeds&utm_campaign=author-uri"
+msgstr ""
+
+#: includes/Plugin.php:82
+msgid "Settings"
+msgstr ""
+
+#: includes/Providers/Facebook.php:116
+msgid "Facebook video"
+msgstr ""
+
+#: includes/Providers/Facebook.php:119
+msgid "Facebook post"
+msgstr ""
+
+#: includes/Providers/Instagram.php:107
+msgid "Instagram reel"
+msgstr ""
+
+#: includes/Providers/Instagram.php:110
+msgid "Instagram post"
+msgstr ""
+
+#. translators: %s: The provider name, for example Facebook.
+#: includes/Providers/Provider.php:146
+#, php-format
+msgid "This %s content loads after you accept cookies."
+msgstr ""
+
+#. translators: %s: The provider name, for example Facebook.
+#: includes/Providers/Provider.php:154
+#, php-format
+msgid "View on %s"
+msgstr ""
+
+#: includes/Settings.php:107
+msgid "Embeds"
+msgstr ""
+
+#: includes/Settings.php:118
+msgid "Consent category"
+msgstr ""
+
+#: includes/Settings.php:127
+msgid "Require consent"
+msgstr ""
+
+#: includes/Settings.php:143
+msgid "Facebook and Instagram embeds set third-party cookies. When a consent tool is active, they load only after the visitor accepts the cookie category below."
+msgstr ""
+
+#: includes/Settings.php:164
+msgid "The slug of the cookie category in your consent tool, for example \"advertisement\" or \"functional\" in CookieYes. Use the category in which the consent tool lists the Facebook and Instagram cookies."
+msgstr ""
+
+#: includes/Settings.php:180
+msgid "Show only a notice and a link when no consent tool is active"
+msgstr ""
+
+#: includes/Settings.php:185
+msgid "When this is off and no consent tool is active, embeds load at once."
+msgstr ""

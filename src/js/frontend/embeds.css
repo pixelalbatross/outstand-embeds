@@ -1,0 +1,78 @@
+/*
+ * Consent-gated embeds. Before consent, the box shows a notice and a link
+ * to the original content. After consent, the embed fills the box. A theme
+ * can change the look with these custom properties:
+ *
+ * --outstand-embed-gap: space between the notice and the link.
+ * --outstand-embed-padding: space inside the box.
+ * --outstand-embed-min-height: minimum height of the box before the
+ *   embed loads.
+ * --outstand-embed-color: text color of the box.
+ * --outstand-embed-background: background of the box before the embed
+ *   loads.
+ * --outstand-embed-border-radius: corner radius of the box.
+ * --outstand-embed-notice-font-size: font size of the notice.
+ * --outstand-embed-link-color: color of the link.
+ * --outstand-embed-facebook-max-width: maximum width of a Facebook post.
+ * --outstand-embed-instagram-max-width: maximum width of an Instagram
+ *   post or reel.
+ */
+.outstand-embed {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: var(--outstand-embed-gap, 0.75em);
+	box-sizing: border-box;
+	min-block-size: var(--outstand-embed-min-height, 200px);
+	padding: var(--outstand-embed-padding, 1.5em);
+	color: var(--outstand-embed-color, inherit);
+	background: var(--outstand-embed-background, rgb(0 0 0 / 5%));
+	border-radius: var(--outstand-embed-border-radius, 0);
+	text-align: center;
+}
+
+.outstand-embed > p {
+	margin: 0;
+}
+
+.outstand-embed__notice {
+	font-size: var(--outstand-embed-notice-font-size, 0.875em);
+}
+
+.outstand-embed__link a {
+	color: var(--outstand-embed-link-color, currentcolor);
+}
+
+.outstand-embed.is-provider-facebook.is-type-video {
+	aspect-ratio: 16 / 9;
+	min-block-size: 0;
+}
+
+.outstand-embed.is-provider-facebook.is-type-post {
+	max-inline-size: var(--outstand-embed-facebook-max-width, 500px);
+}
+
+.outstand-embed.is-provider-instagram {
+	max-inline-size: var(--outstand-embed-instagram-max-width, 540px);
+}
+
+.outstand-embed.is-loaded {
+	display: block;
+	min-block-size: 0;
+	padding: 0;
+	background: transparent;
+}
+
+/* embed.js sets the height and a 1px border; the width fills the box. */
+.outstand-embed.is-provider-instagram iframe {
+	inline-size: calc(100% - 2px);
+}
+
+/* A video iframe fills the 16:9 box. The Facebook SDK sizes a post iframe. */
+.outstand-embed.is-provider-facebook.is-type-video iframe {
+	display: block;
+	inline-size: 100%;
+	block-size: 100%;
+	border: 0;
+}

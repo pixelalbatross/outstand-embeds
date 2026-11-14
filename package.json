@@ -1,0 +1,42 @@
+{
+  "name": "outstand-embeds",
+  "version": "1.0.0",
+  "description": "Embed Facebook and Instagram posts and videos in the Embed block, and load them only after cookie consent.",
+  "contributors": [
+    {
+      "name": "Sérgio Santos",
+      "homepage": "https://s3rgiosan.dev"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixelalbatross/outstand-embeds"
+  },
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "packages-update": "wp-scripts packages-update",
+    "lint:js": "wp-scripts lint-js",
+    "lint:js:fix": "wp-scripts lint-js --fix",
+    "lint:css": "wp-scripts lint-style",
+    "format": "wp-scripts format",
+    "wp-env": "wp-env",
+    "wp-env:clean": "wp-env clean all",
+    "test:setup": "npm run wp-env start",
+    "test:unit": "wp-env run tests-cli --env-cwd='wp-content/plugins/outstand-embeds' vendor/bin/phpunit --testsuite=default",
+    "test:js": "wp-scripts test-unit-js",
+    "makepot": "wp i18n make-pot . languages/outstand-embeds.pot --slug=outstand-embeds --exclude=vendor,node_modules,build,tests --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/pixelalbatross/outstand-embeds/issues\"}'",
+    "makemo": "wp i18n make-mo languages",
+    "makephp": "wp i18n make-php languages"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=9.0.0"
+  },
+  "devDependencies": {
+    "@wordpress/env": "^10.12.0",
+    "@wordpress/scripts": "^30.12.0",
+    "typescript": "^6.0.3"
+  }
+}
