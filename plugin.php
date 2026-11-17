@@ -2,7 +2,7 @@
 /**
  * @wordpress-plugin
  * Plugin Name:       Outstand Embeds
- * Description:       Embed Facebook and Instagram posts and videos in the Embed block, and load them only after cookie consent.
+ * Description:       Embed third-party content in the Embed block, and load it only after cookie consent. Supports Facebook and Instagram.
  * Plugin URI:        https://outstand.site/?utm_source=wp-plugins&utm_medium=outstand-embeds&utm_campaign=plugin-uri
  * Requires at least: 7.1
  * Requires PHP:      8.2

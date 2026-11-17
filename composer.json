@@ -1,6 +1,6 @@
 {
   "name": "outstand/embeds",
-  "description": "Embed Facebook and Instagram posts and videos in the Embed block, and load them only after cookie consent.",
+  "description": "Embed third-party content in the Embed block, and load it only after cookie consent. Supports Facebook and Instagram.",
   "type": "wordpress-plugin",
   "license": "GPL-3.0-or-later",
   "authors": [

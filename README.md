@@ -1,6 +1,6 @@
 # Outstand Embeds
 
-> Facebook and Instagram embeds for the Embed block, loaded only after cookie consent.
+> Embed third-party content in the Embed block, and load it only after cookie consent. Supports Facebook and Instagram.
 
 WordPress 5.5.2 removed the Facebook and Instagram oEmbed providers from core. This plugin brings the embeds back in the Embed block, and gates them behind the visitor's cookie consent.
 

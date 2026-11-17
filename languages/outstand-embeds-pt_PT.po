@@ -28,8 +28,8 @@ msgstr ""
 
 #. Description of the plugin
 #: plugin.php
-msgid "Embed Facebook and Instagram posts and videos in the Embed block, and load them only after cookie consent."
-msgstr "Incorpora publicações e vídeos do Facebook e do Instagram no bloco Incorporar, e carrega-os apenas depois do consentimento de cookies."
+msgid "Embed third-party content in the Embed block, and load it only after cookie consent. Supports Facebook and Instagram."
+msgstr "Incorpora conteúdo de terceiros no bloco Incorporar, e carrega-o apenas depois do consentimento de cookies. Suporta o Facebook e o Instagram."
 
 #. Author of the plugin
 #: plugin.php

@@ -26,7 +26,7 @@ msgstr ""
 
 #. Description of the plugin
 #: plugin.php
-msgid "Embed Facebook and Instagram posts and videos in the Embed block, and load them only after cookie consent."
+msgid "Embed third-party content in the Embed block, and load it only after cookie consent. Supports Facebook and Instagram."
 msgstr ""
 
 #. Author of the plugin
